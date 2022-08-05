@@ -1,0 +1,976 @@
+CRITICAL - 2022-06-02 10:20:54 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:22:57 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:24:36 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:24:39 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:25:06 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:26:04 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 86)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 10:26:30 --> Call to a member function getAccountCount() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:27:08 --> Call to a member function getAccountCount() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:27:11 --> Call to a member function getAccountCount() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:27:14 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:34:34 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:34:56 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 10:55:38 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 86)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 10:56:35 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 11:59:06 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 12:17:23 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 12:31:47 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 13:35:44 --> Class "App\Models\AccountModel" not found
+#0 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 13:37:31 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 89)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 13:39:35 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 89)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 13:39:38 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 89)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 13:39:40 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 89)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 13:41:31 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(91): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:02:56 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(91): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:05:30 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(91): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:05:49 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(91): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:05:56 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 89)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-02 15:07:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':is_deleted: ORDER BY `id` ASC' at line 1
+CRITICAL - 2022-06-02 15:07:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':is_deleted: ORDER BY `id` ASC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 /var/www/current/app/Models/AccountModel.php(96): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array)
+#4 /var/www/current/app/Controllers/Console/Account.php(94): App\Models\AccountModel->getAccountList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 15:09:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':is_deleted: ORDER BY `id` ASC' at line 1
+CRITICAL - 2022-06-02 15:09:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':is_deleted: ORDER BY `id` ASC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 /var/www/current/app/Models/AccountModel.php(96): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array)
+#4 /var/www/current/app/Controllers/Console/Account.php(94): App\Models\AccountModel->getAccountList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 15:11:11 --> Undefined property: App\Controllers\Console\Account::$viewPath
+#0 /var/www/current/app/Controllers/Console/Account.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/var/www/curren...', 98)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:11:32 --> Undefined variable $total
+#0 /var/www/current/app/Controllers/Console/Account.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 103)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:11:44 --> Undefined property: App\Controllers\Console\Account::$pager
+#0 /var/www/current/app/Controllers/Console/Account.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/var/www/curren...', 103)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:12:16 --> view(): Argument #1 ($name) must be of type string, null given, called in /var/www/current/app/Controllers/Console/Account.php on line 99
+#0 /var/www/current/app/Controllers/Console/Account.php(99): view(NULL, Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:13:08 --> view(): Argument #1 ($name) must be of type string, null given, called in /var/www/current/app/Controllers/Console/Account.php on line 99
+#0 /var/www/current/app/Controllers/Console/Account.php(99): view(NULL, Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:13:14 --> Unclosed '{' on line 62
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:14:41 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/user/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(96): view('user/index.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 15:15:03 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/user/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(96): view('user/index.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 15:15:25 --> Undefined variable $db
+#0 /var/www/current/app/Views/user/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 14)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(96): view('user/index.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 15:22:13 --> Undefined variable $db
+#0 /var/www/current/app/Views/user/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 14)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(92): view('user/index.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 15:31:36 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:31:56 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:32:04 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:32:26 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:32:40 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:32:51 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:32:54 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(94): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:33:27 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:33:55 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:34:05 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:34:58 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(94): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 15:35:13 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:35:28 --> Unclosed '{' on line 24
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:35:44 --> Unclosed '{' on line 24
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 15:36:33 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 16:20:32 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 16:30:58 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 16:35:02 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 16:52:30 --> Undefined variable $accountInfo
+#0 /var/www/current/app/Controllers/Console/Account.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 96)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 16:58:42 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:03:34 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:03:53 --> Undefined array key "page"
+#0 /var/www/current/app/Controllers/Console/Account.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:04:04 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:04:07 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:04:13 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:04:15 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:04:41 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:04:44 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Account.php(87): CodeIgniter\Model->__call('getAccountCount', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:05:03 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:05:06 --> Undefined variable $total
+#0 /var/www/current/app/Controllers/Console/Account.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 100)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:05:15 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:05:18 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(96): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:05:47 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:05:49 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:06:11 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:06:22 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(97): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:06:42 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:11:12 --> Undefined variable $resultsQuery
+#0 /var/www/current/app/Views/user/index.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 133)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(92): view('user/index.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:12:14 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/user/index.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 133)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(92): view('user/index.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:13:09 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/user/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/index.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(92): view('user/index.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:15:06 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(93): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:16:34 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(93): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:16:38 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(93): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:16:55 --> Invalid file: console/account/index.html
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(93): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:17:46 --> Invalid file: account/indexphp.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/indexph...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/indexph...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(92): view('account/indexph...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:17:48 --> Invalid file: account/indexphp.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/indexph...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/indexph...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(92): view('account/indexph...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 17:17:59 --> Unclosed '{' on line 24
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:18:02 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(92): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:23:36 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:23:38 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:23:40 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:23:49 --> Unclosed '{' on line 63
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 17:24:55 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:24:57 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:30:48 --> Undefined variable $id
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:30:51 --> Undefined variable $id
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:30:53 --> Undefined variable $id
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:30:57 --> Undefined variable $id
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:31:06 --> Undefined variable $name
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:37:59 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:38:50 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:40:58 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:41:07 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 134)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:44:03 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 17:46:00 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(93): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:07:46 --> Undefined variable $accountView
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(97): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:09:40 --> Undefined variable $testData
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(103): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:11:24 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 134)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(103): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:12:11 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 134)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(103): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:14:50 --> syntax error, unexpected token "/"
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 18:14:54 --> Undefined variable $array
+#0 /var/www/current/app/Views/account/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 22)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(103): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:16:27 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 134)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(102): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:16:50 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 135)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(102): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:28:37 --> Undefined variable $accountList
+#0 /var/www/current/app/Views/account/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 23)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/index.p...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(77): view('account/index.p...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 18:33:27 --> Undefined variable $data
+#0 /var/www/current/app/Controllers/Console/Account.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 34)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

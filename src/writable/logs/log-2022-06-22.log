@@ -1,0 +1,354 @@
+CRITICAL - 2022-06-22 10:43:45 --> view(): Argument #1 ($name) must be of type string, App\Models\QuestionModel given, called in /var/www/current/app/Controllers/Console/Question.php on line 90
+#0 /var/www/current/app/Controllers/Console/Question.php(90): view(Object(App\Models\QuestionModel))
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 15:10:59 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('6')
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-22 15:19:20 --> Undefined array key "name"
+#0 /var/www/current/app/Views/console/question/show.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 96)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-22 15:21:47 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-06-22 15:21:47 --> Column 'id' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `user`  ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`  ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`  ...')
+#3 /var/www/current/app/Models/QuestionModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT `user`  ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(91): App\Models\QuestionModel->getQuestionShow(8)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-22 15:21:51 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-06-22 15:21:51 --> Column 'id' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `user`  ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`  ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`  ...')
+#3 /var/www/current/app/Models/QuestionModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT `user`  ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(91): App\Models\QuestionModel->getQuestionShow(8)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-22 15:21:57 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-06-22 15:21:57 --> Column 'id' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `user`  ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`  ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`  ...')
+#3 /var/www/current/app/Models/QuestionModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT `user`  ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(91): App\Models\QuestionModel->getQuestionShow(10)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('10')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:55:20 --> nl2br() expects at most 2 arguments, 3 given
+#0 /var/www/current/app/Views/console/question/show.php(98): nl2br('2022-06-21 16:5...', 3, 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:57:14 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', '3')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:57:42 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', '3', 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:57:43 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', '3', 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:57:44 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', '3', 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:57:46 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', '3', 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:58:14 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', 'utf-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 15:58:15 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(117): esc('CodeIgniter v4....', 'utf-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(97): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 16:39:41 --> Undefined array key "id"
+#0 /var/www/current/app/Views/console/question/new.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 106)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(59): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->new('11')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 16:39:52 --> Undefined array key "id"
+#0 /var/www/current/app/Views/console/question/new.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 106)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(59): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->new('11')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 17:08:12 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('title', '\xE8\xB3\xAA\xE5\x95\x8F\xE3\x82\xBF\xE3\x82\xA4\xE3\x83\x88...', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Question.php(164): CodeIgniter\Validation\Validation->run(Array, 'questionCreate')
+#4 /var/www/current/app/Controllers/Console/Question.php(77): App\Controllers\Console\Question->checkInput(Array, 'questionCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 17:09:10 --> Undefined property: App\Controllers\Console\Question::$account
+#0 /var/www/current/app/Controllers/Console/Question.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/var/www/curren...', 118)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 17:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `user_id``user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-22 17:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `user_id``user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `user`  ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`  ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`  ...')
+#3 /var/www/current/app/Models/QuestionModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT `user`  ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(139): App\Models\QuestionModel->getQuestionShow(14)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('14')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 17:50:25 --> Invalid escape context provided.
+#0 /var/www/current/app/Views/console/question/show.php(118): esc('\xE3\x81\x8A\xE3\x81\x8A\xE3\x81\x8A\xE3\x81\x8A\xE3\x81\x8A...', '3', 'UTF-8')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(145): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('14')
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 18:17:05 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:11 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:31 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:51 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:52 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:52 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:52 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:52 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:17:58 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('7')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('7')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:16 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('4')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('4')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:21 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('9')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('9')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:29 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('9')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('9')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:33 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:42 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:45 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('11')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('11')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:51 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('9')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('9')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:18:54 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:19:24 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('14')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('14')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:20:44 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Question.php on line 152
+#0 /var/www/current/app/Controllers/Console/Question.php(152): App\Models\QuestionModel->getQuestionShow('8')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('8')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 18:23:37 --> App\Controllers\Console\Question::show(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('a')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

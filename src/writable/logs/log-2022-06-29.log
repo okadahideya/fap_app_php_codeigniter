@@ -1,0 +1,677 @@
+CRITICAL - 2022-06-29 09:51:27 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/answer/new.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Answer.php(59): view('console/answer/...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(20)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-29 09:55:18 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(180): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(101): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:41:28 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-29 11:41:28 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:43:15 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-29 11:43:15 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:43:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`question`.`create_at` DESC' at line 1
+CRITICAL - 2022-06-29 11:43:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`question`.`create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:44:00 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-29 11:44:00 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:44:05 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-29 11:44:05 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 11:44:13 --> Too few arguments to function App\Controllers\Console\Question::show(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-29 11:44:25 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-29 11:44:25 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.answer.role' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-29 11:45:38 --> Unknown column 'is_best_answer.role' in 'order clause'
+CRITICAL - 2022-06-29 11:45:38 --> Unknown column 'is_best_answer.role' in 'order clause'
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(108): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(52): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 11:51:49 --> Undefined array key "role"
+#0 /var/www/current/app/Views/console/question/show.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 78)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(2)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 12:50:07 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/new.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(71): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->new()
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-29 13:07:17 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('title', '\xE8\xB3\xAA\xE5\x95\x8F\xE3\x82\xBF\xE3\x82\xA4\xE3\x83\x88...', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Question.php(224): CodeIgniter\Validation\Validation->run(Array, 'questionCreate')
+#4 /var/www/current/app/Controllers/Console/Question.php(109): App\Controllers\Console\Question->checkInput(Array, 'questionCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 13:10:23 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(189): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(3)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-29 13:10:26 --> Too few arguments to function App\Controllers\Console\Question::show(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 13:10:34 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(189): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(3)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-29 13:12:07 --> Too few arguments to function App\Controllers\Console\Question::delete(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->delete()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:12:45 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:13:06 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:14:24 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:14:30 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:14:42 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:18:30 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:18:52 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:18:55 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:19:00 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:21:04 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:21:12 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:21:55 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:22:08 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:22:42 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(1)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:23:05 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(1)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:23:12 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(1)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:23:35 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:23:35 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:23:57 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(1)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:25:46 --> App\Controllers\Console\Question::show(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('Console', 'Answer', 'new')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:25:59 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:26:46 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:26:50 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:27:04 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:29:27 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:29:28 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:30:21 --> Invalid file: console/answer/new.php?question_id=
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/answer/...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Answer.php(59): view('console/answer/...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(1)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 15:30:24 --> Invalid file: console/answer/new.php?question_id=
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/answer/...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Answer.php(59): view('console/answer/...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(1)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 15:31:32 --> Invalid file: /Console/Answer/new/?question_id=.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Console/Answer...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('/Console/Answer...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Answer.php(59): view('/Console/Answer...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(1)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 15:34:04 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:34:58 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:35:27 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:35:57 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:38:10 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:38:47 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:38:52 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:42:26 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:44:20 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:45:00 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:46:20 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:46:35 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:47:03 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:47:50 --> App\Controllers\Console\Answer::new(): Argument #1 ($questionId) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(''1')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:48:17 --> App\Controllers\Console\Answer::new(): Argument #1 ($questionId) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new('p1')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:48:37 --> App\Controllers\Console\Answer::new(): Argument #1 ($questionId) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new('p1')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:49:09 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:49:25 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 15:54:55 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 16:42:50 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 16:44:19 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 16:50:23 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:02:31 --> Cannot re-assign auto-global variable _GET
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-29 17:04:24 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:08:25 --> Cannot re-assign auto-global variable _SERVER
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-29 17:13:34 --> syntax error, unexpected token "[", expecting ")"
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Answer/...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Answer/...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 17:34:44 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:35:12 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:45:51 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:53:52 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:54:21 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 17:58:37 --> Array to string conversion
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 17:58:48 --> Array to string conversion
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:10:44 --> Undefined array key "?question_id="
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:14:01 --> Undefined array key "?question_id="
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:38:21 --> Undefined array key "id"
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:38:56 --> Array callback must have exactly two elements
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(174): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-29 18:42:03 --> Undefined array key "id"
+#0 /var/www/current/app/Controllers/Console/Question.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 168)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 18:42:22 --> Undefined array key "id"
+#0 /var/www/current/app/Controllers/Console/Question.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 168)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 18:42:37 --> Undefined array key "id"
+#0 /var/www/current/app/Controllers/Console/Question.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 168)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 18:43:27 --> Undefined array key "id"
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(173): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:53:35 --> http_build_query(): Argument #1 ($data) must be of type array, string given
+#0 /var/www/current/app/Views/console/question/show.php(66): http_build_query('1')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(173): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:54:08 --> Undefined array key "id"
+#0 /var/www/current/app/Views/console/question/show.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 66)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(173): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 18:54:35 --> http_build_query(): Argument #1 ($data) must be of type array, string given
+#0 /var/www/current/app/Views/console/question/show.php(66): http_build_query('1')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(173): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

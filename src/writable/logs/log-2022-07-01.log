@@ -1,0 +1,160 @@
+CRITICAL - 2022-07-01 10:20:11 --> Undefined variable $question
+#0 /var/www/current/app/Views/console/question/show.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 91)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(193): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(4)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 10:20:17 --> Undefined variable $question
+#0 /var/www/current/app/Views/console/question/show.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 91)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(193): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(2)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-01 14:59:57 --> session is expired.
+ERROR - 2022-07-01 15:00:35 --> session is expired.
+ERROR - 2022-07-01 15:00:56 --> session is expired.
+ERROR - 2022-07-01 15:01:37 --> session is expired.
+ERROR - 2022-07-01 15:01:55 --> session is expired.
+ERROR - 2022-07-01 15:02:53 --> session is expired.
+ERROR - 2022-07-01 15:03:07 --> session is expired.
+ERROR - 2022-07-01 15:05:36 --> session is expired.
+ERROR - 2022-07-01 15:08:06 --> session is expired.
+ERROR - 2022-07-01 15:36:13 --> session is expired.
+ERROR - 2022-07-01 15:36:21 --> session is expired.
+CRITICAL - 2022-07-01 15:38:31 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/Console/Login.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 85)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 15:39:12 --> session is expired.
+ERROR - 2022-07-01 15:39:25 --> session is expired.
+CRITICAL - 2022-07-01 15:50:41 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:52:23 --> Undefined array key "sesstion"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:05 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:11 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:13 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:13 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:14 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:14 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Question.php(28): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:16 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:53:54 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Login.php(24): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Login->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:57:45 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 84)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Question.php(28): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:57:45 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 84)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Answer.php(30): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Answer->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 15:57:47 --> Undefined array key "session"
+#0 /var/www/current/app/Controllers/BaseController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 84)
+#1 /var/www/current/app/Controllers/BaseController.php(67): App\Controllers\BaseController->isSignIn()
+#2 /var/www/current/app/Controllers/Console/Question.php(28): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-01 18:47:31 --> session is expired.

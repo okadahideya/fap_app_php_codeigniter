@@ -1,0 +1,683 @@
+CRITICAL - 2022-06-24 10:18:20 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(52): CodeIgniter\Model->__call('table', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 10:18:28 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(52): CodeIgniter\Model->__call('table', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 10:20:06 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(52): CodeIgniter\Model->__call('table', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 10:20:09 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(52): CodeIgniter\Model->__call('table', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 10:21:53 --> App\Models\QuestionModel::getSearch(): Argument #1 ($search) must be of type string, array given, called in /var/www/current/app/Controllers/Console/Question.php on line 54
+#0 /var/www/current/app/Controllers/Console/Question.php(54): App\Models\QuestionModel->getSearch(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 10:30:05 --> Undefined variable $questions
+#0 /var/www/current/app/Views/Console/Question/index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 71)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/Questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(60): view('Console/Questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->search()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 12:05:35 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:06:01 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:07:25 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:10:33 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:16:07 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:18:24 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:18:24 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:19:28 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:19:28 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:20:10 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:20:10 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:22:06 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:22:06 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:28:09 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:28:09 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:31:42 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:31:42 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:33:22 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:33:22 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:36:01 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:36:01 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:41:58 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:41:58 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:43:28 --> Duplicate entry '1' for key 'user.PRIMARY'
+ERROR - 2022-06-24 12:43:28 --> Duplicate entry '1' for key 'question.PRIMARY'
+ERROR - 2022-06-24 12:43:28 --> Duplicate entry '1' for key 'answer.PRIMARY'
+ERROR - 2022-06-24 14:30:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` INNER JOIN `user` ON `question`.`user_id` = `user`.`id` I' at line 1
+CRITICAL - 2022-06-24 14:30:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` INNER JOIN `user` ON `question`.`user_id` = `user`.`id` I' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(118): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 14:31:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` INNER JOIN `user` ON `question`.`user_id` = `user`.`id` I' at line 1
+CRITICAL - 2022-06-24 14:31:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` INNER JOIN `user` ON `question`.`user_id` = `user`.`id` I' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(118): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 14:32:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` JOIN `user` ON `question`.`user_id` = `user`.`id` JOIN `a' at line 1
+CRITICAL - 2022-06-24 14:32:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`role`FROM `question` JOIN `user` ON `question`.`user_id` = `user`.`id` JOIN `a' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(118): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 14:38:29 --> Column 'role' in where clause is ambiguous
+CRITICAL - 2022-06-24 14:38:29 --> Column 'role' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 14:39:35 --> Column 'role' in where clause is ambiguous
+CRITICAL - 2022-06-24 14:39:35 --> Column 'role' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(122): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-24 14:53:11 --> Undefined array key "role"
+#0 /var/www/current/app/Models/QuestionModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 14:54:02 --> Undefined array key "role"
+#0 /var/www/current/app/Models/QuestionModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 82)
+#1 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-24 14:56:21 --> Column 'role' in where clause is ambiguous
+CRITICAL - 2022-06-24 14:56:21 --> Column 'role' in where clause is ambiguous
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(125): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:11:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = '回答' ORDER BY `create_at` DESC' at line 1
+CRITICAL - 2022-06-24 15:11:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = '回答' ORDER BY `create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(129): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = :text: ORDER BY `create_at` DESC' at line 1
+CRITICAL - 2022-06-24 15:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = :text: ORDER BY `create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(129): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = :text: ORDER BY `create_at` DESC' at line 1
+CRITICAL - 2022-06-24 15:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'answer`.text` = :text: ORDER BY `create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(129): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-24 15:26:18 --> Array to string conversion
+#0 /var/www/current/app/Models/QuestionModel.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/var/www/curren...', 110)
+#1 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-24 15:28:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:28:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:31:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(answer.text), `user`    .`name`, `question`.`id`, `question`.`title`' at line 1
+CRITICAL - 2022-06-24 15:31:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(answer.text), `user`    .`name`, `question`.`id`, `question`.`title`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECTcount(ans...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECTcount(ans...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECTcount(ans...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECTcount(ans...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:31:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+CRITICAL - 2022-06-24 15:31:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECTcount(`an...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECTcount(`an...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECTcount(`an...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECTcount(`an...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:32:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:32:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:33:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `answer`  .`role` FROM `question` JOIN `user` ON `question`.`user_id' at line 1
+CRITICAL - 2022-06-24 15:33:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `answer`  .`role` FROM `question` JOIN `user` ON `question`.`user_id' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:48:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:48:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:50:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)` `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`c' at line 1
+CRITICAL - 2022-06-24 15:50:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)` `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`c' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:51:25 --> Unknown column 'count(answer.text)' in 'field list'
+CRITICAL - 2022-06-24 15:51:25 --> Unknown column 'count(answer.text)' in 'field list'
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(an...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(an...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(an...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(an...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:51:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`cr' at line 1
+CRITICAL - 2022-06-24 15:51:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`cr' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:52:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:52:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:53:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:53:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`count(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`count(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`count(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`count(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:55:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+CRITICAL - 2022-06-24 15:55:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECTCOUNT(`an...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECTCOUNT(`an...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECTCOUNT(`an...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECTCOUNT(`an...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:56:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`title`, `ques' at line 1
+CRITICAL - 2022-06-24 15:56:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`title`, `ques' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT'COUNT'(`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT'COUNT'(`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT'COUNT'(`...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT'COUNT'(`...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:57:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:57:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`COUNT(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`COUNT(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`COUNT(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`COUNT(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:58:08 --> FUNCTION codeigniter4_base_dev.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2022-06-24 15:58:08 --> FUNCTION codeigniter4_base_dev.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`COUNT`(`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`COUNT`(`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`COUNT`(`...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`COUNT`(`...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:59:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+CRITICAL - 2022-06-24 15:59:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECTCOUNT(`an...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECTCOUNT(`an...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECTCOUNT(`an...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECTCOUNT(`an...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:59:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+CRITICAL - 2022-06-24 15:59:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`.`text`)`, `user`    .`name`, `question`.`id`, `question`.`title`, `question`.`' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`COUNT(`a...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`COUNT(`a...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`COUNT(`a...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`COUNT(`a...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 15:59:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+CRITICAL - 2022-06-24 15:59:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTCOUNT(`answer`.`text`), `user`    .`name`, `question`.`id`, `question`.`ti' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECTCOUNT(`an...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECTCOUNT(`an...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECTCOUNT(`an...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECTCOUNT(`an...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:00:23 --> FUNCTION codeigniter4_base_dev.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2022-06-24 16:00:23 --> FUNCTION codeigniter4_base_dev.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`COUNT`(`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`COUNT`(`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`COUNT`(`...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`COUNT`(`...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:02:46 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:02:46 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:05:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:05:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(133): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:22:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:22:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(134): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:22:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:22:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'codeigniter4_base_dev.user.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(134): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-24 16:27:31 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:36 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:47 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:49 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:50 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:51 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 16:27:53 --> syntax error, unexpected token "}"
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ques...')
+#2 /var/www/current/app/Controllers/Console/Question.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ques...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Question->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-24 16:28:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',GROUP BY `answer`.`text` ORDER BY `create_at` DESC' at line 1
+CRITICAL - 2022-06-24 16:28:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',GROUP BY `answer`.`text` ORDER BY `create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(135): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:28:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',ORDER BY `create_at` DESC' at line 1
+CRITICAL - 2022-06-24 16:28:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',ORDER BY `create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(135): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:29:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:29:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(135): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:29:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:29:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(135): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:29:38 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:29:38 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(135): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:30:01 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:30:01 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(133): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:31:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:31:31 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:46:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:46:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 16:51:48 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 16:51:48 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(131): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 17:48:54 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-06-24 17:48:54 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'codeigniter4_base_dev.user.name'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(160): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-24 17:51:00 --> Unknown column 'amswer.role' in 'field list'
+CRITICAL - 2022-06-24 17:51:00 --> Unknown column 'amswer.role' in 'field list'
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(160): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(53): App\Models\QuestionModel->getSearch(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

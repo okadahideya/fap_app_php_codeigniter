@@ -1,0 +1,55 @@
+CRITICAL - 2022-06-13 10:05:21 --> Undefined array key "email"
+#0 /var/www/current/app/Controllers/Console/Account.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 68)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:09:51 --> Undefined array key "email"
+#0 /var/www/current/app/Controllers/Console/Account.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 68)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:10:30 --> Unclosed '{' on line 353
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:29:55 --> Invalid file: console/account/auth.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/account...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Account.php(101): view('console/account...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:33:14 --> Undefined variable $data
+#0 /var/www/current/app/Views/Console/account/login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 31)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(104): view('Console/account...')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:28:51 --> Undefined array key "email"
+#0 /var/www/current/app/Controllers/Console/Account.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 68)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 18:02:20 --> Undefined array key "email"
+#0 /var/www/current/app/Controllers/Console/Account.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 68)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

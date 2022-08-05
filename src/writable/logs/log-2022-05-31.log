@@ -1,0 +1,87 @@
+CRITICAL - 2022-05-31 16:56:13 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 17:52:31 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 18:13:26 --> user is not a valid database connection group.
+#0 /var/www/current/app/Views/user/userList.php(13): CodeIgniter\Database\Config::connect('user')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#4 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:14:15 --> codeigniter4_base_dev is not a valid database connection group.
+#0 /var/www/current/app/Views/user/userList.php(13): CodeIgniter\Database\Config::connect('codeigniter4_ba...')
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#4 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:17:14 --> Undefined variable $custom
+#0 /var/www/current/app/Views/user/userList.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 13)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#4 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-31 18:17:25 --> Table 'codeigniter4_base_dev.users' doesn't exist
+CRITICAL - 2022-05-31 18:17:25 --> Table 'codeigniter4_base_dev.users' doesn't exist
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('select * from u...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 /var/www/current/app/Views/user/userList.php(15): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#5 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#7 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#8 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#9 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-31 18:19:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::fetch_assoc()
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#3 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 18:33:24 --> Undefined variable $table
+#0 /var/www/current/app/Views/user/userList.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 14)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('user/userList.p...', Array, true)
+#4 /var/www/current/app/Controllers/UserController.php(10): view('user/userList.p...')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

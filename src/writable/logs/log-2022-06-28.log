@@ -1,0 +1,555 @@
+CRITICAL - 2022-06-28 10:04:30 --> Undefined array key "session"
+#0 /var/www/current/app/Views/Console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/Console/answer/new.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Answer.php(11): view('Console/answer/...')
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-28 10:04:32 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(167): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-28 10:04:34 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/index.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(56): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-28 10:04:35 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(167): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(19)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-28 10:04:37 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(167): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(19)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-28 10:27:18 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:27:18 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:27:29 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:27:33 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:27:36 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:28:42 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 10:50:58 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Answer.php(43): CodeIgniter\Model->__call('getQuestionShow', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 10:51:33 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Answer.php(43): CodeIgniter\Model->__call('getQuestionShow', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 11:03:24 --> Undefined array key "text"
+#0 /var/www/current/app/Views/console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(52): view('console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 11:04:14 --> Undefined array key "text"
+#0 /var/www/current/app/Views/console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(53): view('console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 11:05:50 --> Undefined array key "text"
+#0 /var/www/current/app/Views/console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(53): view('console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 11:06:52 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Answer.php(56): view('console/answer/...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 11:06:53 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Answer.php(56): view('console/answer/...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 11:13:39 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Answer.php(56): view('console/answer/...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 11:33:53 --> Undefined array key "title"
+#0 /var/www/current/app/Views/Console/answer/new.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 40)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(74): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 11:38:11 --> App\Models\QuestionModel::getQuestionShow(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Answer.php on line 68
+#0 /var/www/current/app/Controllers/Console/Answer.php(68): App\Models\QuestionModel->getQuestionShow('2')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 11:40:25 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(94): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(64): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 14:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: GROUP BY`question`.`id` ORDER BY `question`.`create_at` DESC' at line 1
+CRITICAL - 2022-06-28 14:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: GROUP BY`question`.`id` ORDER BY `question`.`create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(106): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:03:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':(int)ROLE_ADMIN: GROUP BY`question`.`id` ORDER BY `question`.`create_at` DESC' at line 1
+CRITICAL - 2022-06-28 15:03:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':(int)ROLE_ADMIN: GROUP BY`question`.`id` ORDER BY `question`.`create_at` DESC' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:05:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+CRITICAL - 2022-06-28 15:05:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:05:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+CRITICAL - 2022-06-28 15:05:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:05:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+CRITICAL - 2022-06-28 15:05:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:05:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+CRITICAL - 2022-06-28 15:05:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':role: AND count(answer.text) > 0 THEN 1 ELSE 0 END as `is_best_answer` ,CASE WH' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:08:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) > 0 THEN 1 ELSE 0 END as `is_answer`, `question`.`create_at` FROM `question` ' at line 1
+CRITICAL - 2022-06-28 15:08:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) > 0 THEN 1 ELSE 0 END as `is_answer`, `question`.`create_at` FROM `question` ' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:09:07 --> Unknown column 'answer.*' in 'field list'
+CRITICAL - 2022-06-28 15:09:07 --> Unknown column 'answer.*' in 'field list'
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 15:09:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') > 0 THEN 1 ELSE 0 END as `is_answer`, `question`.`create_at` FROM `question` J' at line 1
+CRITICAL - 2022-06-28 15:09:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') > 0 THEN 1 ELSE 0 END as `is_answer`, `question`.`create_at` FROM `question` J' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`user`   ...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`user`   ...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`user`   ...')
+#3 /var/www/current/app/Models/QuestionModel.php(107): CodeIgniter\Database\BaseConnection->query('SELECT`user`   ...', Array)
+#4 /var/www/current/app/Controllers/Console/Question.php(49): App\Models\QuestionModel->getList(Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 15:22:32 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(103): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(61): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 15:23:09 --> Undefined variable $question
+#0 /var/www/current/app/Controllers/Console/Answer.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 81)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 15:23:24 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(103): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(61): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 15:23:48 --> Undefined variable $questions
+#0 /var/www/current/app/Views/Console/answer/new.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 37)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(86): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 15:24:04 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(103): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(61): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 15:46:14 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Answer.php(43): CodeIgniter\Model->__call('get', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(18)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 15:47:08 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Answer.php(43): CodeIgniter\Model->__call('get', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(18)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 15:47:59 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Answer.php(43): CodeIgniter\Model->__call('get', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(1)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 16:19:24 --> Undefined array key "text"
+#0 /var/www/current/app/Views/console/answer/new.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 70)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(57): view('console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(17)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 17:36:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `answer` WHERE `answer`.`id` = 2' at line 1
+CRITICAL - 2022-06-28 17:36:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `answer` WHERE `answer`.`id` = 2' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `answer`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `answer`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `answer`...')
+#3 /var/www/current/app/Models/AnswerModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT `answer`...', Array)
+#4 /var/www/current/app/Controllers/Console/Answer.php(61): App\Models\AnswerModel->get(2)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(2, 2)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 17:37:05 --> Invalid file: console/answer/edit.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/answer/...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Answer.php(71): view('console/answer/...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(2, 2)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 17:37:33 --> Invalid file: console/answer/edit.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('console/answer/...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/answer/...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Answer.php(71): view('console/answer/...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(2, 2)
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-28 17:38:48 --> Array to string conversion
+#0 /var/www/current/app/Views/Console/answer/new.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/var/www/curren...', 70)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('/Console/answer...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(71): view('/Console/answer...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(2, 2)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 17:53:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`text` FROM `answer` WHERE `answer`.`id` = 5' at line 1
+CRITICAL - 2022-06-28 17:53:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`text` FROM `answer` WHERE `answer`.`id` = 5' at line 1
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `answer`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `answer`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `answer`...')
+#3 /var/www/current/app/Models/AnswerModel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT `answer`...', Array)
+#4 /var/www/current/app/Controllers/Console/Answer.php(62): App\Models\AnswerModel->get(5)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(3, 5)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 17:53:42 --> Undefined variable $anser
+#0 /var/www/current/app/Views/Console/answer/new.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 61)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('/Console/answer...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(70): view('/Console/answer...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(3, 5)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 17:53:47 --> Undefined variable $anser
+#0 /var/www/current/app/Views/Console/answer/new.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 61)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('/Console/answer...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(70): view('/Console/answer...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(3, 5)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:03:15 --> Undefined array key "id"
+#0 /var/www/current/app/Views/Console/answer/new.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 61)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(138): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create(5)
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:26:32 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(177): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(98): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:32:54 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(177): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(98): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:36:08 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(179): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(99): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:38:27 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(179): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(99): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:38:54 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(177): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(98): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 18:40:57 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('text', '\xE5\x9B\x9E\xE7\xAD\x94\xE5\x86\x85\xE5\xAE\xB9', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Answer.php(178): CodeIgniter\Validation\Validation->run(Array, 'answerCreate')
+#4 /var/www/current/app/Controllers/Console/Answer.php(99): App\Controllers\Console\Answer->checkInput(Array, 'answerCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

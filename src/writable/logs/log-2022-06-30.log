@@ -1,0 +1,187 @@
+CRITICAL - 2022-06-30 09:51:02 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/show.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(173): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show(1)
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-30 09:51:06 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/global/header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 12)
+#1 /var/www/current/app/Views/console/question/index.php(19): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#3 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#5 /var/www/current/app/Controllers/Console/Question.php(59): view('console/questio...', Array)
+#6 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#7 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#8 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-30 09:59:02 --> Call to undefined method App\Controllers\Console\Answer::get()
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 09:59:58 --> Call to undefined method App\Controllers\Console\Answer::get()
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 09:59:59 --> Call to undefined method App\Controllers\Console\Answer::get()
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 10:00:04 --> Call to undefined method App\Controllers\Console\Answer::get()
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 10:00:48 --> Call to undefined method App\Controllers\Console\Answer::get()
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new(3)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 10:01:41 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(7)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 10:09:15 --> Undefined variable $questionId
+#0 /var/www/current/app/Controllers/Console/Answer.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 51)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new('3')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 10:12:20 --> Undefined array key "question_id"
+#0 /var/www/current/app/Controllers/Console/Answer.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 48)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new('3')
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 10:24:21 --> Too few arguments to function App\Controllers\Console\Answer::edit(), 1 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->edit(8)
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 10:47:18 --> App\Models\QuestionModel::get(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/app/Controllers/Console/Answer.php on line 51
+#0 /var/www/current/app/Controllers/Console/Answer.php(51): App\Models\QuestionModel->get('3')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 15:03:05 --> Undefined array key "id"
+#0 /var/www/current/app/Views/Console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(140): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 15:03:10 --> Undefined array key "id"
+#0 /var/www/current/app/Views/Console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(140): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 15:04:11 --> Undefined array key "id"
+#0 /var/www/current/app/Views/Console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(140): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 15:05:28 --> Undefined array key "id"
+#0 /var/www/current/app/Views/Console/answer/new.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 63)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/answer/...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Answer.php(142): view('Console/answer/...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 16:08:43 --> App\Controllers\Console\Question::show(): Argument #1 ($id) must be of type int, string given, called in /var/www/current/system/CodeIgniter.php on line 825
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->show('index3.html')
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-30 16:10:57 --> Undefined array key "user_id"
+#0 /var/www/current/app/Views/console/question/new.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 47)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(77): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 16:11:01 --> Undefined array key "user_id"
+#0 /var/www/current/app/Views/console/question/new.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 47)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(77): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 16:12:53 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('title', '\xE8\xB3\xAA\xE5\x95\x8F\xE3\x82\xBF\xE3\x82\xA4\xE3\x83\x88...', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Question.php(238): CodeIgniter\Validation\Validation->run(Array, 'questionCreate')
+#4 /var/www/current/app/Controllers/Console/Question.php(112): App\Controllers\Console\Question->checkInput(Array, 'questionCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 17:27:05 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('title', '\xE8\xB3\xAA\xE5\x95\x8F\xE3\x82\xBF\xE3\x82\xA4\xE3\x83\x88...', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Question.php(238): CodeIgniter\Validation\Validation->run(Array, 'questionCreate')
+#4 /var/www/current/app/Controllers/Console/Question.php(112): App\Controllers\Console\Question->checkInput(Array, 'questionCreate')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 18:34:46 --> Too few arguments to function App\Controllers\Console\Answer::new(), 0 passed in /var/www/current/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Answer->new()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Answer))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,174 @@
+CRITICAL - 2022-06-17 09:51:09 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 09:51:12 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 10:38:17 --> Array callback must have exactly two elements
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 10:38:31 --> Array callback must have exactly two elements
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 10:39:17 --> Array callback must have exactly two elements
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 10:39:22 --> Array callback must have exactly two elements
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 10:39:41 --> Undefined array key "createSucces"
+#0 /var/www/current/app/Views/console/account/index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 90)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 10:39:49 --> Undefined array key "createSucces"
+#0 /var/www/current/app/Views/console/account/index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 90)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 11:06:55 --> Invalid file: Console/Login/login.php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Console/Login/l...')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/Login/l...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Login.php(120): view('Console/Login/l...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 11:11:56 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 11:34:51 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 11:35:07 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-17 11:46:39 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+CRITICAL - 2022-06-17 11:46:39 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+#0 /Users/adn20012/faq_app_codeigniter/src/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/adn20012/faq_app_codeigniter/src/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Users/adn20012/faq_app_codeigniter/src/system/Database/Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 /Users/adn20012/faq_app_codeigniter/src/system/Commands/Database/Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'UserSeeder')
+#8 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 /Users/adn20012/faq_app_codeigniter/src/spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+CRITICAL - 2022-06-17 12:09:19 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 12:09:25 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 13:09:26 --> Invalid file: .php
+#0 /var/www/current/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/current/app/Controllers/Home.php(9): view('')
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 15:16:36 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 15:19:44 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:16:40 --> Trying to access array offset on value of type null
+#0 /var/www/current/app/Controllers/Console/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 74)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

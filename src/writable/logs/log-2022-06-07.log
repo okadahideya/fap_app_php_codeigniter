@@ -1,0 +1,593 @@
+CRITICAL - 2022-06-07 09:49:41 --> Undefined array key "nmae"
+#0 /var/www/current/app/Models/AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 35)
+#1 /var/www/current/app/Controllers/Console/Account.php(70): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 09:50:00 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 35)
+#1 /var/www/current/app/Controllers/Console/Account.php(70): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 09:51:36 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 35)
+#1 /var/www/current/app/Controllers/Console/Account.php(70): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 09:52:07 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 36)
+#1 /var/www/current/app/Controllers/Console/Account.php(70): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 09:52:22 --> Unclosed '{' on line 52
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Acco...')
+#2 /var/www/current/app/Controllers/Console/Account.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Acco...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-07 09:57:21 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(70): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:00:10 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 36)
+#1 /var/www/current/app/Controllers/Console/Account.php(72): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 10:00:12 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 36)
+#1 /var/www/current/app/Controllers/Console/Account.php(72): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 10:00:23 --> Undefined variable $form
+#0 /var/www/current/app/Views/account/new.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 124)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(57): view('account/new.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:04:31 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(83): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:05:06 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 36)
+#1 /var/www/current/app/Controllers/Console/Account.php(83): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 10:05:19 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(83): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:05:32 --> Unclosed '{' on line 17
+#0 /var/www/current/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/curren...')
+#1 /var/www/current/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Acco...')
+#2 /var/www/current/app/Controllers/Console/Account.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Acco...')
+#3 /var/www/current/system/CodeIgniter.php(803): App\Controllers\Console\Account->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /var/www/current/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-07 10:09:05 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 81)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:09:08 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 81)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:09:35 --> Undefined array key "name"
+#0 /var/www/current/app/Models/AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 36)
+#1 /var/www/current/app/Controllers/Console/Account.php(89): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 10:12:20 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(89): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:13:42 --> Unclosed '{' on line 78
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:15:46 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(87): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:26:36 --> Undefined array key "create_at"
+#0 /var/www/current/app/Models/AccountModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 40)
+#1 /var/www/current/app/Controllers/Console/Account.php(87): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 10:27:18 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(89): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:29:20 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 81)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:34:10 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 72)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:34:19 --> Call to a member function insert() on null
+#0 /var/www/current/app/Controllers/Console/Account.php(82): App\Models\AccountModel->createAccount(Array)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:37:43 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(693): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Models/AccountModel.php(41): CodeIgniter\Model->__get('create')
+#3 /var/www/current/app/Controllers/Console/Account.php(82): App\Models\AccountModel->createAccount(Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 11:17:48 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 96)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:17:59 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 96)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:36:24 --> Undefined variable $error
+#0 /var/www/current/app/Views/account/new.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 103)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(57): view('account/new.php')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 11:39:51 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 108)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:40:59 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 108)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:41:10 --> Unclosed '{' on line 79
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:41:16 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 108)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:44:14 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 117)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:44:31 --> Unclosed '{' on line 80
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:44:42 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 117)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:44:54 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(108): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:45:42 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(108): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:54:38 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(101): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 11:54:54 --> Undefined array key "name"
+#0 /var/www/current/app/Views/account/new.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 103)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(143): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 11:59:17 --> Undefined variable $form
+#0 /var/www/current/app/Views/account/new.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 111)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(70): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:01:17 --> Undefined array key "name"
+#0 /var/www/current/app/Views/account/new.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 102)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(143): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:13:28 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:13:36 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:14:55 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:15:35 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:16:27 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:19:29 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 120)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:19:38 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:19:47 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:26:47 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:27:09 --> Undefined array key "name"
+#0 /var/www/current/app/Views/account/new.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 103)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:27:20 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:30:19 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:30:56 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 12:31:02 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:34:38 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 136)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:38:55 --> Undefined array key "password"
+#0 /var/www/current/app/Views/account/new.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 125)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(152): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 12:47:50 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 15:06:32 --> preg_match(): Argument #2 ($subject) must be of type string, null given
+#0 /var/www/current/app/Controllers/Console/Account.php(109): preg_match('/\\A(?=.*[a-z])(...', NULL)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 15:11:33 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 120)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 15:11:53 --> Undefined array key "role"
+#0 /var/www/current/app/Controllers/Console/Account.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 120)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 15:12:02 --> Unclosed '{' on line 146
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 15:26:38 --> Undefined array key "role"
+#0 /var/www/current/app/Models/AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 35)
+#1 /var/www/current/app/Controllers/Console/Account.php(144): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 15:31:18 --> Undefined array key "role"
+#0 /var/www/current/app/Models/AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 35)
+#1 /var/www/current/app/Controllers/Console/Account.php(144): App\Models\AccountModel->createAccount(Array)
+#2 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#3 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#4 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 15:52:19 --> Undefined variable $datar
+#0 /var/www/current/app/Views/account/new.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 123)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(78): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->new()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 15:55:20 --> Undefined array key "role"
+#0 /var/www/current/app/Views/account/new.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 141)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('account/new.php', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(151): view('account/new.php', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 16:12:17 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 113)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 16:16:43 --> Unclosed '{' on line 17
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 16:16:45 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 113)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 16:21:18 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 113)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 16:22:07 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 113)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 17:06:08 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 102)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 18:34:04 --> Undefined array key "password"
+#0 /var/www/current/app/Controllers/Console/Account.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 102)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

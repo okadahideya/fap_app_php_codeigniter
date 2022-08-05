@@ -1,0 +1,275 @@
+CRITICAL - 2022-06-14 15:35:35 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 /var/www/current/system/Validation/Validation.php(279): trim(Array)
+#1 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', Array, Array, Array)
+#2 /var/www/current/app/Controllers/Console/Account.php(300): CodeIgniter\Validation\Validation->run(Array, 'account')
+#3 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 15:50:11 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 15:58:52 --> Undefined array key "email"
+#0 /var/www/current/app/Controllers/Console/Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 68)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 16:23:24 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 16:24:14 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 /var/www/current/system/Validation/Validation.php(279): trim(Array)
+#1 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', Array, Array, Array)
+#2 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#3 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 16:33:17 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 16:33:34 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 /var/www/current/system/Validation/Validation.php(279): trim(Array)
+#1 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', Array, Array, Array)
+#2 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#3 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 16:33:43 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 /var/www/current/system/Validation/Validation.php(279): trim(Array)
+#1 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', Array, Array, Array)
+#2 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#3 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 16:34:23 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 16:34:50 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('name', '\xE3\x83\xA6\xE3\x83\xBC\xE3\x82\xB6\xE5\x90\x8D', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 16:35:04 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 17:10:45 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 17:47:19 --> Call to a member function setRules() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 18:00:34 --> Undefined array key "label"
+#0 /var/www/current/app/Controllers/Console/Account.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 114)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:05:28 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(303): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(114): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:08:56 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(300): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:13:19 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:17:26 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:17:52 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:20:57 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:26:33 --> App\Controllers\Console\Account::checkInput(): Argument #1 ($data) must be of type string, array given, called in /var/www/current/app/Controllers/Console/Account.php on line 111
+#0 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:27:18 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(301): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:43:08 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(301): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:44:44 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(299): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(111): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:49:30 --> Unclosed '{' on line 295
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:49:37 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', '/var/www/curren...', 279)
+#1 /var/www/current/system/Validation/Validation.php(279): trim(NULL)
+#2 /var/www/current/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('role', '\xE6\xA8\xA9\xE9\x99\x90', NULL, Array, Array)
+#3 /var/www/current/app/Controllers/Console/Account.php(303): CodeIgniter\Validation\Validation->run(Array, 'account')
+#4 /var/www/current/app/Controllers/Console/Account.php(113): App\Controllers\Console\Account->checkInput(Array, 'account')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 18:52:04 --> Trying to access array offset on value of type int
+#0 /var/www/current/app/Controllers/Console/Account.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 139)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:58:31 --> Trying to access array offset on value of type int
+#0 /var/www/current/app/Controllers/Console/Account.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/var/www/curren...', 139)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->create()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

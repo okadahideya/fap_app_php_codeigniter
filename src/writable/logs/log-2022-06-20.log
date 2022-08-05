@@ -1,0 +1,216 @@
+CRITICAL - 2022-06-20 14:11:11 --> Call to a member function getAccountList() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:11:14 --> Call to a member function getAccountList() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:11:49 --> Call to a member function getQuestion() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:11:52 --> Call to a member function getQuestion() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:11:54 --> Call to a member function getQuestion() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:12:15 --> Call to a member function getQuestion() on null
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 14:15:41 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(36): CodeIgniter\Model->__call('getQuestion', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 14:16:07 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(35): CodeIgniter\Model->__call('getQuestion', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 14:17:02 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(35): CodeIgniter\Model->__call('getQuestion', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 14:17:04 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(35): CodeIgniter\Model->__call('getQuestion', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 15:21:58 --> You must set the database table to be used with your query.
+#0 /var/www/current/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /var/www/current/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /var/www/current/app/Controllers/Console/Question.php(35): CodeIgniter\Model->__call('getQuestion', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 15:40:31 --> Unknown column 'q.created_at' in 'field list'
+CRITICAL - 2022-06-20 15:40:31 --> Unknown column 'q.created_at' in 'field list'
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `u`.`id`...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 /var/www/current/app/Models/QuestionModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...')
+#4 /var/www/current/app/Controllers/Console/Question.php(36): App\Models\QuestionModel->getQuestion()
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 16:22:02 --> Array to string conversion
+#0 /var/www/current/app/Views/console/question/index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/var/www/curren...', 105)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(45): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 17:09:24 --> Undefined array key "title"
+#0 /var/www/current/app/Controllers/Console/Question.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 41)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 17:11:06 --> Undefined array key "title"
+#0 /var/www/current/app/Controllers/Console/Question.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 41)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 17:11:12 --> Undefined array key "title"
+#0 /var/www/current/app/Controllers/Console/Question.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 41)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 17:16:06 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(50): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-20 17:17:28 --> syntax error, unexpected token ")"
+#0 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#2 /var/www/current/app/Controllers/Console/Question.php(50): view('console/questio...', Array)
+#3 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#4 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#5 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 17:21:57 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(50): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-20 17:25:53 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(51): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-20 17:25:56 --> Cannot access offset of type string on string
+#0 /var/www/current/system/View/View.php(210): include()
+#1 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#3 /var/www/current/app/Controllers/Console/Question.php(51): view('console/questio...', Array)
+#4 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#5 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#6 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-20 17:26:17 --> Undefined constant "App\Controllers\Console\eixt"
+#0 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#1 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#2 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 17:36:36 --> syntax error, unexpected token "as", expecting ";"
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Questio...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Questio...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 17:36:49 --> Undefined variable $question
+#0 /var/www/current/app/Controllers/Console/Question.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 53)
+#1 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#2 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 18:00:16 --> Undefined array key "name"
+#0 /var/www/current/app/Views/console/question/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 31)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(55): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 18:00:30 --> Undefined array key "name"
+#0 /var/www/current/app/Views/console/question/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 31)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/questio...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Question.php(55): view('console/questio...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Question->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Question))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

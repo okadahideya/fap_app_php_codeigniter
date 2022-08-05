@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  faq_app_web:
+    build:
+      context: .
+      dockerfile: ./docker/web/Dockerfile
+    volumes:
+      - ./src/:/var/www/current
+      - ./docker/web/apache2.conf:/etc/apache2/apache2.conf
+      - ./docker/web/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./docker/web/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf
+      - ./src/public/.htaccess.development:/var/www/current/public/.htaccess
+    ports:
+      - 80:80
+    links:
+      - faq_app_db
+    depends_on:
+      - faq_app_db
+    privileged: true
+  faq_app_db:
+    build:
+      context: .
+      dockerfile: ./docker/db/Dockerfile
+    volumes:
+      - ./docker/db/data:/var/lib/mysql
+      - ./docker/db/my.cnf:/etc/mysql/my.cnf
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: faq_app_dev
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3306:3306"
+    privileged: true

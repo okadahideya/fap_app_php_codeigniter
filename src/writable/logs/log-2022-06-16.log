@@ -1,0 +1,167 @@
+ERROR - 2022-06-16 11:16:19 --> Table 'codeigniter4_base_dev.user' doesn't exist
+CRITICAL - 2022-06-16 11:16:19 --> Table 'codeigniter4_base_dev.user' doesn't exist
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('select id, name...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select id, name...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select id, name...')
+#3 /var/www/current/app/Models/AccountModel.php(73): CodeIgniter\Database\BaseConnection->query('select id, name...')
+#4 /var/www/current/app/Controllers/Console/Account.php(45): App\Models\AccountModel->getAccountList()
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 11:16:23 --> Table 'codeigniter4_base_dev.user' doesn't exist
+CRITICAL - 2022-06-16 11:16:23 --> Table 'codeigniter4_base_dev.user' doesn't exist
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('select id, name...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select id, name...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select id, name...')
+#3 /var/www/current/app/Models/AccountModel.php(73): CodeIgniter\Database\BaseConnection->query('select id, name...')
+#4 /var/www/current/app/Controllers/Console/Account.php(45): App\Models\AccountModel->getAccountList()
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 11:19:04 --> Table 'codeigniter4_base_dev.user' doesn't exist
+CRITICAL - 2022-06-16 11:19:04 --> Table 'codeigniter4_base_dev.user' doesn't exist
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`id` ,`na...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`id` ,`na...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`id` ,`na...')
+#3 /var/www/current/app/Models/AccountModel.php(99): CodeIgniter\Database\BaseConnection->query('SELECT`id` ,`na...', Array)
+#4 /var/www/current/app/Controllers/Console/Login.php(71): App\Models\AccountModel->getAuth('test@gmail.com')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 12:41:10 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 12:46:29 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 12:49:43 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 15:52:57 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 16:22:02 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 16:25:58 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+CRITICAL - 2022-06-16 16:25:58 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+#0 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1338): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1369): CodeIgniter\Database\BaseConnection->listTables()
+#3 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(754): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(634): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 /Users/adn20012/faq_app_codeigniter/src/system/Commands/Database/MigrateStatus.php(111): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#7 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#8 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:status')
+#10 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 /Users/adn20012/faq_app_codeigniter/src/spark(63): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2022-06-16 16:28:53 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+CRITICAL - 2022-06-16 16:28:53 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+#0 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1338): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1369): CodeIgniter\Database\BaseConnection->listTables()
+#3 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(754): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(634): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 /Users/adn20012/faq_app_codeigniter/src/system/Commands/Database/MigrateStatus.php(111): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#7 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#8 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:status')
+#10 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 /Users/adn20012/faq_app_codeigniter/src/spark(63): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2022-06-16 16:29:46 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 16:56:58 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+ERROR - 2022-06-16 16:58:33 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+CRITICAL - 2022-06-16 16:58:33 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for codeigniter4_base_db failed: nodename nor servname provided, or not known
+#0 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1338): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 /Users/adn20012/faq_app_codeigniter/src/system/Database/BaseConnection.php(1369): CodeIgniter\Database\BaseConnection->listTables()
+#3 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(754): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 /Users/adn20012/faq_app_codeigniter/src/system/Database/MigrationRunner.php(634): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 /Users/adn20012/faq_app_codeigniter/src/system/Commands/Database/MigrateStatus.php(111): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#7 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#8 /Users/adn20012/faq_app_codeigniter/src/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:status')
+#10 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 /Users/adn20012/faq_app_codeigniter/src/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/adn20012/faq_app_codeigniter/src/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 /Users/adn20012/faq_app_codeigniter/src/spark(63): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2022-06-16 17:25:21 --> Undefined variable $errMessageFlash
+#0 /var/www/current/app/Views/Console/account/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 32)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Login.php(50): view('Console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->login()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 17:30:45 --> Undefined variable $errMessageFlash
+#0 /var/www/current/app/Views/Console/account/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 32)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Login.php(120): view('Console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-16 17:32:15 --> Table 'codeigniter4_base_dev.user' doesn't exist
+CRITICAL - 2022-06-16 17:32:15 --> Table 'codeigniter4_base_dev.user' doesn't exist
+#0 /var/www/current/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT`id` ,`na...', 0)
+#1 /var/www/current/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT`id` ,`na...')
+#2 /var/www/current/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT`id` ,`na...')
+#3 /var/www/current/app/Models/AccountModel.php(99): CodeIgniter\Database\BaseConnection->query('SELECT`id` ,`na...', Array)
+#4 /var/www/current/app/Controllers/Console/Login.php(72): App\Models\AccountModel->getAuth('test@gmail.com')
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 18:11:26 --> Undefined variable $errMessageFlash
+#0 /var/www/current/app/Views/Console/account/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/var/www/curren...', 32)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('Console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Login.php(107): view('Console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Login->auth()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Login))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 18:15:10 --> Undefined array key "session"
+#0 /var/www/current/app/Views/console/account/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/var/www/curren...', 31)
+#1 /var/www/current/system/View/View.php(210): include('/var/www/curren...')
+#2 /var/www/current/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/current/system/Common.php(1089): CodeIgniter\View\View->render('console/account...', Array, true)
+#4 /var/www/current/app/Controllers/Console/Account.php(52): view('console/account...', Array)
+#5 /var/www/current/system/CodeIgniter.php(825): App\Controllers\Console\Account->index()
+#6 /var/www/current/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Console\Account))
+#7 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 18:22:18 --> syntax error, unexpected token "if"
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 18:22:22 --> syntax error, unexpected token "if"
+#0 /var/www/current/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('Console/Account...')
+#1 /var/www/current/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Console/Account...')
+#2 /var/www/current/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/current/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/current/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
